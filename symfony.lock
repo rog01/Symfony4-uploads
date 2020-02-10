@@ -1,4 +1,7 @@
 {
+    "aws/aws-sdk-php": {
+        "version": "3.132.3"
+    },
     "behat/transliterator": {
         "version": "v1.2.0"
     },
@@ -125,6 +128,28 @@
     "knplabs/knp-time-bundle": {
         "version": "1.9.0"
     },
+    "league/flysystem": {
+        "version": "1.0.63"
+    },
+    "league/flysystem-aws-s3-v3": {
+        "version": "1.0.23"
+    },
+    "league/flysystem-bundle": {
+        "version": "1.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "8ad3ded1f39fedce098e43259741f42092a1010e"
+        },
+        "files": [
+            "./config/packages/flysystem.yaml",
+            "./var/storage/.gitignore"
+        ]
+    },
+    "league/flysystem-cached-adapter": {
+        "version": "1.0.9"
+    },
     "liip/imagine-bundle": {
         "version": "1.8",
         "recipe": {
@@ -144,6 +169,9 @@
     "monolog/monolog": {
         "version": "1.24.0"
     },
+    "mtdowling/jmespath.php": {
+        "version": "2.5.0"
+    },
     "nexylan/slack": {
         "version": "v2.1.0"
     },
@@ -158,6 +186,18 @@
     },
     "ocramius/proxy-manager": {
         "version": "2.2.2"
+    },
+    "oneup/flysystem-bundle": {
+        "version": "3.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "3.0",
+            "ref": "0eb87bba411c227da027fe5f7c1dc7954b02f242"
+        },
+        "files": [
+            "./config/packages/oneup_flysystem.yaml"
+        ]
     },
     "php": {
         "version": "7.1.3"
